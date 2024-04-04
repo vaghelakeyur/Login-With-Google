@@ -154,7 +154,7 @@
 
         <x-slot name="content">
             {{ __('Are you sure you would like to delete this API token?') }}
-        </x-slot>
+        </x-slot>       
 
         <x-slot name="footer">
             <x-secondary-button wire:click="$toggle('confirmingApiTokenDeletion')" wire:loading.attr="disabled">
